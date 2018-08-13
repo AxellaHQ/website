@@ -13,11 +13,17 @@ html(lang="en")
 		meta(http-equiv="X-UA-Compatible", content="ie=edge")
 		block title
 		+css("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min")
-		+css("css/grid")
-		+css("css/global")
+		+css("css/bundle")
 		block css
 		block head
 	body
 		block body
 		
+		footer#footer
+			p (C)2018 Axella
+			div.link
+				ul
+					li: a(href="http://github.com/AxellaHQ/website") リポジトリ
+					li: a(href="http://github.com/AxellaHQ/website/issues") 不具合報告
+					li: a(href="http://twitter.com/xeltica") 管理人Twitter
 		block script
