@@ -14,7 +14,7 @@
     "watch:pug": "pug ./src/pug --out ./dist/ --pretty -w",
     "watch:ts": "tsc -w",
     "clean": "rimraf ./dist",
-    "srv": "npm-run-all -p watch browser",
+    "srv": "npm-run-all -s build -p watch browser",
     "browser": "browser-sync start --server --ss ./dist"
   },
   "author": "Xeltica",
