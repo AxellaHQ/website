@@ -47,8 +47,7 @@ body {
 
 @media only screen and (max-width: 800px) {
 	#about, #activity {
-		padding-left: 0;
-		padding-right: 0;
+		padding: 2rem 0.2rem; 
 		text-align: center;
 	}
 }
