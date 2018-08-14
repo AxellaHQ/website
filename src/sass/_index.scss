@@ -25,14 +25,14 @@ body {
 #about {
 	background: #ef5350;
 	padding: 5rem 0;
-	color: white;
+	color: #FAFAFA;
 	padding-right: 30%;
 	text-align: right;
 }
 
 #activity {
-	background: #080808;
-	color: #42A5F5;
+	background: #26A69A;
+	color: #FAFAFA;
 	padding: 5rem 0;
 	padding-left: 30%;
 	text-align: left;
@@ -45,46 +45,10 @@ body {
 	padding: 5rem 0;
 }
 
-#footer {
-	position: relative;
-	margin: 0;
-	font-feature-settings: normal;
-	padding: 1rem;
-	&>p {
-		margin: 0;
-		font-size: 12pt;
-		color: #ddd;
+@media only screen and (max-width: 800px) {
+	#about, #activity {
+		padding-left: 0;
+		padding-right: 0;
+		text-align: center;
 	}
-
-	div.link {
-
-		li {
-			display: inline;
-			list-style-type: none;
-			&:not(:last-child):after {
-				content: "・";
-				color: #ccc;
-				position: relative;
-			}
-
-		}
-
-		a {
-			&:link, &:visited {
-				color: #ccc;
-			}
-			&:hover {
-				color: #bbb;
-			}
-
-			&:active {
-				color: #aaa;
-			}
-
-			text-decoration-line: none;
-
-		}
-	}
-
-	background-color: #333;
 }

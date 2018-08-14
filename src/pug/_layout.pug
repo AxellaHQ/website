@@ -20,10 +20,16 @@ html(lang="en")
 		block body
 		
 		footer#footer
-			p (C)2018 Axella
-			div.link
-				ul
-					li: a(href="http://github.com/AxellaHQ/website") リポジトリ
-					li: a(href="http://github.com/AxellaHQ/website/issues") 不具合報告
-					li: a(href="http://twitter.com/xeltica") 管理人Twitter
+			p (C)2018 Axella -アクセラ-
+			.container
+				.row
+					.col-5.footer-left
+						ul
+							li: a(href="http://github.com/AxellaHQ/website") リポジトリ
+							li: a(href="http://github.com/AxellaHQ/website/issues") 不具合報告
+							li: a(href="http://twitter.com/xeltica") @Xeltica
+					.col-2.footer-middle
+						img(src="assets/secondary_logo.png")
+					.col-5.footer-right
+
 		block script
