@@ -94,6 +94,17 @@ p {
 		width: 64px;
 		height: auto;
 		vertical-align: middle;
+		transition: all 0.1s ease-in;
+		&:hover {
+			transform:rotateZ(45deg);
+			filter: drop-shadow(0px 0px 4px black);
+		}
+	}
+
+	a>img {
+		&:hover, &:link, &:active, &:visited {
+			text-decoration-line: none;
+		}
 	}
 }
 
