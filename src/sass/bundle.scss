@@ -2,7 +2,7 @@ body {
 	margin: 0;
 	font-family: -apple-system, "Helvetica Neue", "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
 
-	font-feature-settings: "pkna" 1;
+	font-feature-settings: "palt" 1;
 }
 
 h1 h2 h3 h4 h5 h6 {
@@ -101,6 +101,7 @@ p {
 @media only screen and (max-width: 800px) {
 	.footer-left, .footer-right {
 		text-align: center;
+		height: 1.2rem;
 	}
 }
 
